@@ -1,0 +1,85 @@
+:
+:ClrHome:Output(
+1,1,"PONG")
+:0>C:0>W:D*1/2>E
+:randInt(3,14)>X
+:randInt(2,7)>Y
+:-1>S:-1>T
+:3>P
+:
+:While X<=14
+:(C+1)>C
+:If C>E and W=0:
+Then:For(M,1,8):
+For(R,1,16):Outp
+ut(M,R,"/"):End:
+End:End:If C>E:T
+hen:Output(Y,X,"
+/"):Else:Output(
+Y,X," "):End
+:If C>E and W=0:
+Then:1>W:Output(
+1,1,"HERE COMES"
+):Output(2,1,"A
+CHALLENGER"):End
+:(X+S)>X
+:(Y+T)>Y
+:
+:Output(Y,X,"O")
+:If X<=1:Output(Y
+,X,"*")
+:If Y<=1 or Y>=8
+:(-T)>T
+:If X<=1:(-S)>S:I
+f X<=1 and (Y!=1 a
+nd Y!=8):(randInt
+(-1,1)/1)>T
+:If X>=14 and Y=P
+ or X>=14 and Y=P
+ +1:(-S)>S
+ :getKey>K
+ :If K=randInt(11
+ ,15):0>T
+ :If K!=0
+ :Output(P,15," "
+ )
+ :If K!=0:Output(P
+ +1,15," ")
+ :If K=25 and P>1
+ :Then:If W=0:The
+ n
+ :(P-2)>P
+ :Else:(P-2)>P:En
+ D:End
+ :If K=34 and P<7
+ :Then:If W=0:The
+ n
+ :(P+2)>P
+ :Else:(P+2)>P:En
+ d:End
+ :Output(P,15,"]"
+ )
+ :Output(P+1,15,"
+ ]")
+ :End
+ :ClrHome
+ :Output(2,2,"YOU
+  IS A LOSAR!")
+ :Output(4,5,"SCO
+ RE")
+ :Output(4,11,C)
+ :
+ :Output(5,5,"HIG
+ H")
+ :Output(5,10,D)
+ :Output(7,1,"MAD
+ E BY AEDAN")
+ :If C>D:Output(8
+ ,2,"NEW HIGH SCO
+ RE!")
+ :If C>D:Output(7
+ ,1,"W00T W00T W0
+ 0T!")
+ :If C>D:C>D
+ :
+ 
